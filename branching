@@ -19,7 +19,7 @@ data "aws_ami" "ami_id_info" {
     }
 
     filter {
-
+       name = ""
     }
   
 }
