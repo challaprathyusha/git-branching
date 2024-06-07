@@ -18,10 +18,6 @@ data "aws_ami" "ami_id_info" {
       values = [ "hvm" ]
     }
 
-    filter {
-       name = ""
-    }
-  
 }
 
 data "aws_route53_zone" "hostedzone_id" {
